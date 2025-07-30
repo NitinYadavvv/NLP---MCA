@@ -5,7 +5,7 @@ def guess(randNo,i):
     if((num<1) or (num>100)):
         print("\nNumber Should be in the range of 1-100")
     
-    if(num==randNO):
+    if(num==randNo):
         print("CONGRATULATION!!!! \n YOU GUESS THE NUMBER IN YOUR",i,"ATTEMPT")
     elif(num>randNO):
          print("Your Number is Bigger Than the Original Number")
